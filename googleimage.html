@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <style>
+            p{
+                text-align:right;
+            }
+            form{
+                text-align:center;
+
+            }
+            input[type=text]{
+                border-radius:8px;
+                width:350px;
+            }
+            .center{
+                display:block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        </style>
+        <p> <a href="index.html">Google Search</a></p>
+        <p> <a href="advancedsearch.html">Advanced Search</a></p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2f/Google_2015_logo.svg" alt="Google logo" class="center">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q"><br>
+            <input type="hidden" name="tbm" value="isch">
+        </form>
+    </body>
+</html>

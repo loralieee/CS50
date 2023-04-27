@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+    </head>
+    <body>
+        <style>
+            .right{
+                text-align:right;
+            }
+            .forms{
+                overflow:hidden;
+                float: left;
+                padding-left:25px;
+            }
+            input[type=submit]{
+                background-color: blue;
+                color:white;
+                float:right;
+            }
+            input[type=text]{
+                float:right;
+            }
+        </style>
+        <div class="right">
+        <p><a href="googleimage.html">Image Search</a></p>
+        <p><a href="index.html">Google Search</a></p>
+        </div>
+        <div class="forms">
+        <form action="https://www.google.com/search" method="get">
+            <label>Find pages with...</label><br>
+            <br>
+            <label>all these words: </label>
+            <input type="text" name="as_q" size="60"><br>
+            <br>
+            <label>this exact word or phrase: </label>
+            <input type="text" name="as_epq" size="60"><br>
+            <br>
+            <label>any of these words: </label>
+            <input type="text" name="as_oq" size="60"><br>
+            <br>
+            <label>none of these words: </label>
+            <input type="text" name="as_eq" size="60"><br>
+            <br>
+            <input type="submit" value="Advanced Search">
+        </div>
+        </form>
+    </body>
+</html>
